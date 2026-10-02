@@ -1,13 +1,65 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CLASSYHEELS — Luxury Footwear</title><meta name="description" content="ClassyHeels — luxury women's footwear, crafted for distinction."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body>
-<div class="announcement">Complimentary Worldwide Shipping <span>•</span> Luxury Heels for the Extraordinary <span>•</span> Free Returns &nbsp;|&nbsp; Secure Checkout</div>
-<header><div class="top"><button class="icon mobile" id="menu">☰</button><nav class="left"><a href="#shop">Shop⌄</a><a href="#collections">Collections⌄</a><a href="#story">Our Story</a></nav><a class="logo" href="#">CLASSYHEELS<small>LUXURY FOOTWEAR FOR THE EXTRAORDINARY</small></a><nav class="right"><a href="#journal">Journal</a><a href="#size">Size Guide</a><button class="icon">⌕</button><button class="icon">♡</button><button class="icon" id="cartBtn">♧ <b id="cartCount">0</b></button></nav></div><div class="mobileNav" id="mobileNav"><a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#story">Our Story</a><a href="#journal">Journal</a></div></header>
-<main>
-<section class="hero"><div class="heroCopy"><p class="eyebrow">CLASSYHEELS</p><h1>Walk in<br>Confidence</h1><p>Exquisite heels for women who make every moment their own.</p><button class="cta" onclick="location.href='#shop'">Explore Collection <span>→</span></button></div><div class="heroMeta">LUXURY&nbsp; / &nbsp;CRAFTSMANSHIP&nbsp; / &nbsp;TIMELESS STYLE</div></section>
-<section class="section" id="collections"><div class="sectionHead"><div><p class="eyebrow">CURATED FOR YOU</p><h2>Shop by Collection</h2></div><a href="#shop">Discover your perfect pair →</a></div><div class="collections"><article><div class="shoeImg pink"></div><h3>The Essential Edit</h3><p>$350 – $550</p><small>Everyday luxury, perfected.</small></article><article><div class="shoeImg black"></div><h3>Signature Collection</h3><p>$550 – $800</p><small>Iconic styles for modern icons.</small></article><article><div class="shoeImg gold"></div><h3>Icon Collection</h3><p>$800 – $1,200</p><small>Statement pieces for special moments.</small></article><article><div class="shoeImg bridal"></div><h3>Private Reserve</h3><p>$1,200 – $1,750</p><small>Limited editions. Unmatched artistry.</small></article></div></section>
-<section class="section products" id="shop"><div class="sectionHead"><div><p class="eyebrow">THE COLLECTION</p><h2>Featured Styles</h2></div><a href="#shop">View all →</a></div><div class="grid" id="productGrid"></div></section>
-<section class="craft" id="story"><div class="craftPhoto"></div><div><p class="eyebrow">THE CLASSYHEELS STORY</p><h2>Crafted by hand.<br>Loved by women.</h2><p>Every pair of ClassyHeels is a celebration of artistry, precision and patience. We work with exceptional materials and skilled artisans to create heels that feel as extraordinary as they look.</p><button class="lightBtn">Our Craftsmanship →</button></div><div class="detail"><span>PREMIUM MATERIALS</span><span>ARTISAN CRAFTSMANSHIP</span><span>TIMELESS DESIGN</span></div></section>
-<section class="services"><div>◉<b>Worldwide Shipping</b><small>Complimentary on all orders</small></div><div>▣<b>Secure Payments</b><small>100% safe & encrypted</small></div><div>↩<b>Easy Returns</b><small>Within 14 days</small></div><div>◌<b>Personal Concierge</b><small>Private support available</small></div><div>⌁<b>Size Guide</b><small>Find your perfect fit</small></div></section>
-<section class="testimonial"><div class="testImage"></div><div><p class="eyebrow">WHAT OUR CLIENTS SAY</p><blockquote>“ClassyHeels redefines luxury. The quality, fit and attention to detail are unmatched. These are not just shoes, they are an experience.”</blockquote><strong>★★★★★</strong><p>— Sophia R.</p></div><div class="newsletter"><p class="eyebrow">JOIN OUR EXCLUSIVE LIST</p><h3>Be first to know about new arrivals, special editions and private events.</h3><form onsubmit="event.preventDefault();this.querySelector('button').textContent='Thank you';"><input type="email" placeholder="Your email address" required><button>→</button></form></div></section>
-<section class="social"><div><p>FOLLOW @CLASSYHEELS</p><small>Style. Elegance. Extraordinary.</small></div><div class="socialPics"><i></i><i></i><i></i><i></i><i></i><i></i></div><a href="#">Shop Our Lookbook →</a></section>
-</main><footer><div class="footerBrand"><div class="logo">CLASSYHEELS<small>LUXURY FOOTWEAR FOR THE EXTRAORDINARY</small></div></div><div><b>SHOP</b><a>New Arrivals</a><a>Heels</a><a>Pumps</a><a>Sandals</a><a>Flats</a></div><div><b>CUSTOMER CARE</b><a>Shipping & Delivery</a><a>Returns & Exchanges</a><a>Size Guide</a><a>FAQs</a><a>Contact Us</a></div><div><b>ABOUT</b><a>Our Story</a><a>Craftsmanship</a><a>Journal</a><a>Sustainability</a><a>Careers</a></div><div><b>STAY CONNECTED</b><p>Join our mailing list for exclusive offers.</p><form><input placeholder="Your email address"><button>→</button></form><div class="socialLinks">◎　◉　f　▶</div></div><div class="copyright">© 2026 ClassyHeels. All rights reserved. <span>Privacy Policy　|　Terms & Conditions　|　Secure Checkout</span></div></footer>
-<div class="cart" id="cart"><button class="close" id="close">×</button><p class="eyebrow">YOUR BAG</p><h2>Selected pieces</h2><div id="cartItems">Your bag is empty.</div><button class="checkout">Checkout</button></div><div class="overlay" id="overlay"></div><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CLASSYHEELS — Women's Luxury Heels</title>
+<meta name="description" content="ClassyHeels — exceptional women's heels, crafted for modern icons.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">COMPLIMENTARY WORLDWIDE SHIPPING <span>•</span> PRIVATE CONCIERGE <span>•</span> SECURE CHECKOUT</div>
+<header class="siteHeader">
+  <div class="headerRow">
+    <button class="hamburger" id="menu" aria-label="Open menu">☰</button>
+    <button class="searchBtn" aria-label="Search">⌕</button>
+    <nav class="desktopNav leftNav"><a href="#shop">SHOP</a><a href="#collections">COLLECTIONS</a><a href="#story">OUR STORY</a></nav>
+    <a class="brand" href="#top">CLASSYHEELS</a>
+    <nav class="desktopNav rightNav"><a href="#journal">JOURNAL</a><a href="#size">SIZE GUIDE</a></nav>
+    <button class="headIcon" aria-label="Wishlist">♡</button>
+    <button class="headIcon bagBtn" id="cartBtn" aria-label="Shopping bag">♧ <b id="cartCount">0</b></button>
+  </div>
+  <div class="mobileNav" id="mobileNav"><a href="#shop">SHOP</a><a href="#collections">COLLECTIONS</a><a href="#story">OUR STORY</a><a href="#journal">JOURNAL</a><a href="#size">SIZE GUIDE</a></div>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="heroImage"></div>
+  <div class="heroOverlay"></div>
+  <div class="heroCopy"><div class="eyebrow">THE NEW CLASSYHEELS</div><h1>Walk in<br>Confidence.</h1><p>Exceptional heels for women who make every moment their own.</p><a class="heroBtn" href="#shop">SHOP THE COLLECTION <span>→</span></a></div>
+</section>
+<section class="categoryBar" id="collections">
+  <div class="categoryTitle">SHOP BY STYLE</div>
+  <div class="categoryScroller">
+    <a href="#shop"><img src="assets/collection-essential.jpg"><span>PUMPS</span></a>
+    <a href="#shop"><img src="assets/product-verilyn.jpg"><span>BRIDAL</span></a>
+    <a href="#shop"><img src="assets/collection-signature.jpg"><span>SLINGBACKS</span></a>
+    <a href="#shop"><img src="assets/product-isadora.jpg"><span>STILETTOS</span></a>
+    <a href="#shop"><img src="assets/collection-icon.jpg"><span>STATEMENT</span></a>
+    <a href="#shop"><img src="assets/collection-reserve.jpg"><span>PRIVATE RESERVE</span></a>
+  </div>
+</section>
+<section class="catalog" id="shop">
+  <div class="catalogTop"><button class="filterBtn" id="filterBtn">FILTERS <span>☷</span></button><span id="productCount">12 PRODUCTS</span></div>
+  <div class="filterPanel" id="filterPanel"><button>Category <span>⌄</span></button><button>Heel Height <span>⌄</span></button><button>Colour <span>⌄</span></button><button>Price <span>⌄</span></button></div>
+  <div class="catalogGrid" id="productGrid"></div>
+</section>
+<section class="editorial">
+  <div class="editorialImage"><img src="assets/testimonial.jpg" alt="Woman wearing a ClassyHeels pump"></div>
+  <div class="editorialCopy"><div class="eyebrow">THE SIGNATURE EDIT</div><h2>Designed to<br>be remembered.</h2><p>A modern silhouette, sculpted proportions and considered details — made for entrances that deserve a second look.</p><a href="#shop">DISCOVER THE EDIT <span>→</span></a></div>
+</section>
+<section class="featureGrid">
+  <a class="featureCard" href="#shop"><img src="assets/social-1.jpg"><span>SHOP AUTUMN</span></a>
+  <a class="featureCard" href="#shop"><img src="assets/social-2.jpg"><span>SHOP HEELS</span></a>
+  <a class="featureCard" href="#shop"><img src="assets/social-3.jpg"><span>SHOP STATEMENT</span></a>
+  <a class="featureCard" href="#shop"><img src="assets/social-4.jpg"><span>SHOP BRIDAL</span></a>
+</section>
+<section class="story" id="story"><div class="storyImage"><img src="assets/craft.jpg" alt="Handcrafted luxury footwear"></div><div class="storyCopy"><div class="eyebrow">THE CLASSYHEELS STORY</div><h2>Crafted by hand.<br>Loved by women.</h2><p>Every pair is a study in proportion, material and precision. We work with skilled artisans to create footwear that feels as extraordinary as it looks.</p><a href="#">OUR CRAFTSMANSHIP →</a></div></section>
+<section class="benefits" id="size"><div><b>◎</b><span>WORLDWIDE SHIPPING<small>Complimentary on all orders</small></span></div><div><b>▣</b><span>SECURE PAYMENTS<small>Encrypted checkout</small></span></div><div><b>↩</b><span>EASY RETURNS<small>Within 14 days</small></span></div><div><b>◌</b><span>PERSONAL CONCIERGE<small>Private support available</small></span></div><div><b>⌁</b><span>SIZE GUIDE<small>Find your perfect fit</small></span></div></section>
+<section class="testimonial" id="journal"><div class="eyebrow">WHAT OUR CLIENTS SAY</div><blockquote>“ClassyHeels feels less like shopping and more like discovering a piece of fashion history.”</blockquote><div class="stars">★★★★★</div><div class="client">— Sophia R.</div></section>
+<section class="newsletter"><div><div class="eyebrow">STEP INTO THE WORLD OF CLASSYHEELS</div><h2>Private access to new collections,<br>exclusive editions and events.</h2><p>Join our private list for early access and personal invitations.</p></div><form onsubmit="event.preventDefault();this.querySelector('button').textContent='THANK YOU';"><input type="email" placeholder="Enter your email address" required><button>→</button></form></section>
+</main>
+<footer><div class="footerBrand"><div class="brand">CLASSYHEELS</div><p>LUXURY FOOTWEAR FOR THE EXTRAORDINARY</p></div><div><b>SHOP</b><a>New Arrivals</a><a>Heels</a><a>Pumps</a><a>Bridal</a></div><div><b>SUPPORT</b><a>Shipping & Delivery</a><a>Returns & Exchanges</a><a>Size Guide</a><a>Contact Us</a></div><div><b>OUR COMPANY</b><a>Our Story</a><a>Craftsmanship</a><a>Journal</a><a>Privacy</a></div><div class="footerSocial"><b>FOLLOW CLASSYHEELS</b><p>Instagram &nbsp; Pinterest &nbsp; TikTok</p></div><div class="copyright">© 2026 CLASSYHEELS. ALL RIGHTS RESERVED.</div></footer>
+<div class="cart" id="cart"><button class="close" id="close">×</button><div class="eyebrow">YOUR BAG</div><h2>Selected pieces</h2><div id="cartItems">Your bag is empty.</div><button class="checkout">Checkout securely →</button></div><div class="overlay" id="overlay"></div>
+<script src="script.js"></script>
+</body></html>
